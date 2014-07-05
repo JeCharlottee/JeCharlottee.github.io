@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/* line 19, ../scss/_base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 25, ../scss/_base.scss */
+.border {
+  border-top: solid 1px #54b27f;
+}
+
 /* line 324, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.3/";
@@ -4091,7 +4101,7 @@ kbd {
 
 /* line 18, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: white;
+  background: #c3ffbe;
   z-index: 50;
   min-width: 100%;
   padding: 10px;
@@ -4316,7 +4326,7 @@ kbd {
   top: 10px;
   left: 10px;
   font-size: 12px;
-  color: white;
+  color: transparent;
   background: rgba(0, 0, 0, 0);
   z-index: 10;
 }
@@ -4336,13 +4346,7 @@ kbd {
 }
 /* line 237, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer .orbit-progress {
-  height: 3px;
-  background-color: rgba(255, 255, 255, 0.3);
-  display: block;
-  width: 0%;
-  position: relative;
-  right: 20px;
-  top: 5px;
+  display: none;
 }
 /* line 252, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer > span {
@@ -6461,7 +6465,7 @@ meta.foundation-mq-topbar {
 /* line 109, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+  background: #c3ffbe;
 }
 /* line 113, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
@@ -6501,7 +6505,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #c3ffbe;
   margin-bottom: 0;
 }
 /* line 152, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6614,7 +6618,7 @@ meta.foundation-mq-topbar {
 }
 /* line 258, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+  background: #c3ffbe;
 }
 /* line 261, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
@@ -6644,7 +6648,7 @@ meta.foundation-mq-topbar {
 /* line 293, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
-  border-top: solid 1px #1a1a1a;
+  border-top: solid 1px #10df00;
   clear: both;
   height: 1px;
   width: 100%;
@@ -6905,7 +6909,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 40.063em) {
   /* line 435, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #333333;
+    background: #c3ffbe;
     overflow: visible;
   }
   /* line 176, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -6939,7 +6943,7 @@ meta.foundation-mq-topbar {
   }
   /* line 453, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
-    background: #333333;
+    background: #c3ffbe;
   }
 
   /* line 456, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6977,7 +6981,7 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 15px;
     line-height: 45px;
-    background: #333333;
+    background: #c3ffbe;
   }
   /* line 489, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -7081,14 +7085,14 @@ meta.foundation-mq-topbar {
   .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     border-bottom: none;
     border-top: none;
-    border-right: solid 1px #4e4e4e;
+    border-right: solid 1px #caffc6;
     clear: none;
     height: 45px;
     width: 0;
   }
   /* line 592, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
-    background: #333333;
+    background: #c3ffbe;
     padding: 0 15px;
     height: 45px;
   }
@@ -7983,4 +7987,239 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important;
   }
+}
+/* line 2, ../scss/_type.scss */
+h1.logo {
+  display: inline-block;
+  color: transparent !important;
+  /*background-image:url('../images/avatar.svg');*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 270px;
+  height: 200px;
+}
+
+/* line 14, ../scss/_type.scss */
+.slides h2 {
+  color: #77c299;
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* line 22, ../scss/_type.scss */
+.homePromo h1 a {
+  font-size: 0.5em;
+  padding-top: 1em;
+}
+
+/* line 27, ../scss/_type.scss */
+section h2, article h1 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* line 33, ../scss/_type.scss */
+article h1 {
+  font-size: 1.75em;
+  color: #77c299;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 42, ../scss/_type.scss */
+.testimonies .text {
+  padding: 1em;
+  color: #77c299;
+}
+
+/* line 48, ../scss/_type.scss */
+.testimonies h3 {
+  font-size: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #77c299;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* line 61, ../scss/_type.scss */
+.sub-nav dd a {
+  color: #77c299;
+  font-size: 16px !important;
+}
+
+/* line 67, ../scss/_type.scss */
+.sub-nav dd.active a {
+  background-color: #77c299 !important;
+}
+
+/* line 1, ../scss/_header.scss */
+header {
+  background-color: #f2fff1;
+}
+
+/* line 7, ../scss/_header.scss */
+nav {
+  background-color: #77c299;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer {
+  background-color: #77c299;
+  color: white;
+  padding-top: 2em;
+}
+
+/* line 11, ../scss/_footer.scss */
+.footList ul {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+/* line 20, ../scss/_footer.scss */
+.footList h2 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* line 28, ../scss/_footer.scss */
+.footList li a {
+  color: white;
+  line-height: 2em;
+}
+
+/* line 35, ../scss/_footer.scss */
+.usefulLinks {
+  text-align: center;
+  color: #f2f9f5;
+}
+
+/* line 45, ../scss/_footer.scss */
+.legal {
+  background-color: #54b27f;
+}
+
+/* line 50, ../scss/_footer.scss */
+.legal p {
+  padding-top: 1em;
+  color: #1a3a28;
+}
+
+/*! slides*/
+/* line 17, ../scss/_content.scss */
+.slides {
+  background-repeat: no-repeat;
+  background-position: 5% 50%;
+}
+
+/* line 31, ../scss/_content.scss */
+.slides div div {
+  margin-top: 2.5em;
+  margin-bottom: 5.5em;
+}
+
+/* line 38, ../scss/_content.scss */
+.homeMain, .testimonies, .containBusiness {
+  background-color: rgba(119, 194, 153, 0.1);
+}
+
+/* line 40, ../scss/_content.scss */
+.homePromo {
+  min-height: 320px;
+  background-color: white;
+  text-align: center;
+}
+
+/* line 48, ../scss/_content.scss */
+.testimonies .homePromo {
+  height: 700px;
+}
+
+/* line 55, ../scss/_content.scss */
+#short .testimonies .homePromo {
+  height: 400px;
+}
+
+/* line 60, ../scss/_content.scss */
+.topPro {
+  background-color: #77c299;
+  height: 100px;
+  border-top: solid 10px #77c299;
+}
+
+/* line 64, ../scss/_content.scss */
+.testimonies .topPro {
+  height: 70px;
+  background-color: #f2fff1;
+  border-top: solid 10px #f2fff1;
+}
+
+/* line 68, ../scss/_content.scss */
+.proPic {
+  background-color: #bde2ce;
+  border: solid 5px #54b27f;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 82, ../scss/_content.scss */
+.testimonies .proPic {
+  width: 120px;
+  height: 120px;
+  margin-top: -25px;
+  background-color: white;
+  border: solid 5px #c3ffbe;
+}
+
+/* line 92, ../scss/_content.scss */
+.quotation {
+  background-image: url("../images/quote.png");
+  background-size: 60%;
+  background-position: 50% 50%;
+}
+
+/* line 96, ../scss/_content.scss */
+.pro1 {
+  background-image: url("../images/filler/four.jpg");
+  background-position: 20% 50%;
+}
+
+/* line 98, ../scss/_content.scss */
+.pro2 {
+  background-image: url("../images/filler/two.jpg");
+}
+
+/* line 99, ../scss/_content.scss */
+.pro3 {
+  background-image: url("../images/filler/three.jpg");
+}
+
+/* line 103, ../scss/_content.scss */
+.homeMain .row {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/*! home page content articles*/
+/* line 113, ../scss/_content.scss */
+.aboutImg {
+  margin: 6.75em 0 2em 0;
+}
+
+/* line 118, ../scss/_content.scss */
+article .row {
+  margin-top: 1em;
+}
+
+/* line 124, ../scss/_content.scss */
+article {
+  padding-bottom: 2em;
 }

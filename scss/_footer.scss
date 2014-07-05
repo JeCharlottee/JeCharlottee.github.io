@@ -1,0 +1,54 @@
+footer{
+
+	
+	background-color: $second;
+	color: white;
+	padding-top: 2em;
+}
+
+
+
+.footList ul{
+
+	list-style: none;
+	text-decoration: none;
+	margin-left: 0px;
+	
+
+}
+
+.footList h2{
+
+	color: white;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.footList li a{
+
+	color: lighten($second, 45%);
+	line-height: 2em;
+}
+
+
+.usefulLinks{
+
+	text-align: center;
+	// padding-top: 1em;
+	color: lighten($second, 35%);
+	
+}
+
+	
+
+.legal {
+
+	background-color: darken($second, 10%);
+}
+
+.legal p {
+
+	padding-top: 1em;
+	color: darken($second, 45%);
+}

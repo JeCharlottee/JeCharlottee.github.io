@@ -661,8 +661,9 @@
 
 // $include-html-magellan-classes: $include-html-classes;
 
-// $magellan-bg: #fff;
-// $magellan-padding: 10px;
+// $magellan-bg: lighten($main, 20%);
+$magellan-bg: darken($main, 10%);
+// $magellan-padding: 15px;
 
 // Off-canvas
 
@@ -748,7 +749,7 @@
 
 // We use these to control the timer styles
 // $orbit-timer-bg: rgba(255,255,255,0.3);
-// $orbit-timer-show-progress-bar: true;
+ $orbit-timer-show-progress-bar: false;
 
 // We use these to control the bullet nav styles
 // $orbit-bullet-nav-color: #ccc;
@@ -757,7 +758,7 @@
 
 // We use these to controls the style of slide numbers
 // $orbit-slide-number-bg: rgba(0,0,0,0);
-// $orbit-slide-number-font-color: #fff;
+$orbit-slide-number-font-color: transparent;
 // $orbit-slide-number-padding: rem-calc(5);
 
 // We use these to controls the css animation
@@ -1177,7 +1178,7 @@
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+$topbar-bg-color: darken($main, 10%);
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
