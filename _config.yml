@@ -1,0 +1,10 @@
+# Site settings
+title: JeCharlottee
+email: jessica.nicholl@outlook.com
+description: "Showcase and Playground of Jessica Charlotte Nicholl"
+baseurl: ""
+url: "http://jecharlotte.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

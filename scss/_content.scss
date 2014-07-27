@@ -1,26 +1,6 @@
-/*! slides*/
 
-/*.vine {
-// background-image:url('../images/vineRight.png');
-// background-position: 130% 0%;
+.intro{
 
-background-image:url('../images/vineLeftBot.png');
-background-position: -20% 100%;
-
-
-background-repeat: no-repeat;
-// background-color: lighten($second, 20%);
-
-
-}*/
-
-.slides{
-
-	
-	// background-color: rgba($main, 0.5);
-	
-	
-	
 	background-repeat: no-repeat;
 	background-position: 5% 50%;
 
@@ -28,7 +8,7 @@ background-repeat: no-repeat;
 
 
 
-.slides div div{
+.intro div div{
 
 	margin-top: 2.5em;
 	margin-bottom: 5.5em;
@@ -76,7 +56,18 @@ border-top: solid 10px $main;}
 	margin-top: -30px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 
+}
+
+.proPic i{
+
+-webkit-filter: drop-shadow(8px 8px 10px $second);
+  filter: drop-shadow(8px 8px 10px $second);
+
+  font-size: 8em;
+	padding-top: 0.45em;
+	color: $main;  
 }
 
 .testimonies .proPic{
@@ -92,13 +83,7 @@ border-top: solid 10px $main;}
 .quotation{background-image:url('../images/quote.png');
 background-size: 60%;
 background-position: 50% 50%;}
-
-.pro1{background-image:url('../images/filler/four.jpg');
-background-position: 20% 50%;}
-.pro2{background-image:url('../images/filler/two.jpg');}
-.pro3{background-image:url('../images/filler/three.jpg');}
-
-
+	
 
 .homeMain .row{
 
