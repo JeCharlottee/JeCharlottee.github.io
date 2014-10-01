@@ -7,12 +7,34 @@ HTML5 display definitions
 
 /*! CUSTOM STYLES */
 
-section .cv p, section .cv li, section .cv h4, section .cv h3{
+section.cv p, section.cv li, section.cv h4{
 
 	text-align: left;
 	list-style: none;
 }
 
+section.cv h3{
+text-transform: uppercase;
+letter-spacing: 2px;
+border-top: dashed 1px lightgrey;
+padding-top: 30px;
+
+
+}
+
+section.cv h3{color: #3dc9b3;}
+section.cv h4{color: grey;}
+section.cv li{color: grey;}
+section.cv p{color: #353535;}
+
+ul li span.rating{float: right;}
+ul li span.rating i{
+	letter-spacing: 3px;
+	color: #3dc9b3;
+}
+ul li span.rating span i{
+	color: lightgrey;
+}
 
 
 /* ! END CUSTOM STYLES */
