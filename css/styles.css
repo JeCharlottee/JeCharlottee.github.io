@@ -38,6 +38,47 @@ ul li span.rating span i{
 
 
 /* ! END CUSTOM STYLES */
+
+
+/* ! Portfolio page styles */
+
+.portfolio-header{
+
+	background-color: #3dc9b3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.portfolio-inner{
+
+	/*padding-top: 10px;*/
+	padding-bottom: 20px;
+
+}
+
+.portfolio-inner img{
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+
+
+
+.portfolio-back a {
+
+color: white;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+/* ! end Portfolio page styles */
  
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
  
